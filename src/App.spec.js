@@ -37,10 +37,10 @@ const data = {
 	},
 }
 
-// test("renders without errors", () => {
-// 	mockFetchShow.mockResolvedValueOnce(data);
-// 	render(<App />);
-// })
+test("renders without errors", () => {
+	mockFetchShow.mockResolvedValueOnce(data);
+	render(<App />);
+})
 
 test("renders episodes from api", async () => {
 	jest.resetAllMocks();

@@ -21,10 +21,10 @@ export default function App() {
 				setShow(res.data);
 				setSeasons(formatSeasons(res.data._embedded.episodes));
 			})
-			// .catch(err => {
-			// 	console.log(err)
-			// });
-	}, []);
+		}, []);
+				// .catch(err => {
+				// 	console.log(err)
+				// });
 
 	// const getData = () => {
 	// 	fetchShow().then(res => {

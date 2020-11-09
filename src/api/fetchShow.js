@@ -7,11 +7,11 @@ export const fetchShow = () => {
 			console.log(res);
 			return res;
 		})
-		.catch(err => {
-			console.log(err.message);
-			return err;
-		});
 };
+			// .catch(err => {
+			// 	console.log(err.message);
+			// 	return err;
+			// });
 
 // export const API = "https://api.tvmaze.com/singlesearch/shows?q=stranger-things&embed=episodes";
 // export const fetchShow = async () => {
